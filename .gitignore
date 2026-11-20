@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+
+# Build & compiled artifacts
+dist/
+build/
+server.js
+*.tsbuildinfo
+
+# Environment variables (keep .env.example in repo)
+.env
+.env.*
+!.env.example
+
+# Logs & caches
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.vite/
+coverage/
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Firebase CLI local cache & logs
+.firebase/
+firebase-debug.log*
+firestore-debug.log*
+
+# Tooling & private local notes (never push to GitHub)
+.aistudio/
+local-notes/
